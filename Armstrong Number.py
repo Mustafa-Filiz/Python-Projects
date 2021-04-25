@@ -8,8 +8,8 @@ while True:
 
 sum_digit = 0
 
-for i in range(len(number)):
-    sum_digit += int(number[i]) ** len(number)
+for i in number:
+    sum_digit += int(i) ** len(number)
 
 
 if sum_digit == int(number):
